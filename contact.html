@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/12125717e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>TENTA TRAVEL | CONTACT PAGE</title>
+</head>
+<body>
+    <nav class="navbar bg-customize-light-blue">
+        <div class="container">
+
+           
+        <h1 class="logo lg heading text-light">TT</h1>
+        <ul class="nav-items">
+            <li class="nav-item"><a href="./index.html">Home</a></li>
+            <li class="nav-item"><a href="./about.html">About</a></li>
+            <li class="nav-item"><a href="./contact.html">Contact</a></li>
+        </ul>
+    </div>   
+    </nav>
+
+    <section class="contact-form">
+        <div class="container">
+            <div class="form-wrapper">
+                <div class="company-address">
+                    <div class="address-group">
+                        <i class="fas fa-map-marker-alt fa-3x text-red"></i>
+                        <h2 class="text-grey md-heading">Location</h2>
+                        <p>Lalitpur, Nepal</p>
+                    </div>
+                    <div class="address-group">
+                        <i class="far fa-envelope fa-3x text-red"></i>
+                        <h2 class="text-grey md-heading">Email</h2>
+                        <p>tentatravel@gmail.com</p>
+                    </div>
+                    <div class="address-group">
+                        <i class="fas fa-phone-square-alt fa-3x text-red"></i>
+                        <h2 class="text-grey md-heading">Call</h2>
+                        <p>+012345678</p>
+                    </div>
+                    <img src="./img/companyimg.jpg" alt="Company Image">
+                </div>
+
+                <!-- form -->
+
+                   <center>
+                      
+                      <form action="data.php" class = " form" method = "post">
+                        <h1>Contact US</h1>
+                        <p>
+                            <label for="firstname" >First Name:</label>
+                            <input type="text" name = "first_name" id = "firstname" required>
+                         </p> 
+                         
+                         <p>
+                            <label for="lastname" >Last Name:</label>
+                            <input type="text" name = "last_name" id = "lastname" required>
+                         </p> 
+                         
+                         <p>
+                            <label for="email" >Email Address:</label>
+                            <input type="text" name = "email" id = "email" required>
+                         </p> 
+                         
+                         <p>
+                            <label for="number" >Phone Number:</label>
+                            <input type="number" name = "number" id = "number" required>
+                         </p>
+                         
+                         <p>
+                            <label for="gender">Choose Gender:</label>
+                            <select name="gender" id="gender" required>
+                              <option  value="male">Male</option>
+                              <option value="female">Female</option>
+                            </select>
+                            <br><br>
+                         </p>
+                
+                         <input type="submit" value = "Submit">
+                
+                      </form>
+                   </center>
+               
+        <!-- form -->
+
+
+    </section>
+    <footer class="footer">
+        <div class="social-media-links">
+            <i class="fab fa-facebook fa-4x"></i>
+            <i class="fab fa-twitter fa-4x"></i>
+            <i class="fab fa-instagram fa-4x"></i>
+        </div>
+        <p>Tenta Travel &copy; 2022, All Rights Reserve.</p>
+            </footer>
+
+  
+</body>
+</html>
